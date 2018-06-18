@@ -1,0 +1,25 @@
+{
+  "name": "signins-manual",
+  "version": "1.0.0",
+  "description": "Oauth 2.0 Flow for Google and Facebook using nothing but HTTP requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "request": "^2.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelglu/oauth-manual.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michaelglu/oauth-manual/issues"
+  },
+  "homepage": "https://github.com/michaelglu/oauth-manual#readme"
+}
